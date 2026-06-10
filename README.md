@@ -149,14 +149,5 @@ Contains **146+ URLs** including all tools, calculators, blog posts, and main pa
 
 ---
 
-## 🐍 API Access (Free for Developers)
 
-```python
-import requests
-
-# Check Domain Authority
-response = requests.get(
-    "https://mondaytool.com/api/domain-authority",
-    params={"domain": "example.com"}
-)
 print(response.json())
